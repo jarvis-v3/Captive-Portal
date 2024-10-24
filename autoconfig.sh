@@ -13,7 +13,7 @@ if ! sudo bash -c 'cat > /etc/dnsmasq.conf << EOF
 interface=eth0
 dhcp-range=172.27.221.10,172.27.221.200,255.255.240.0
 EOF'; then
-    echo "Terjadi kesalahan saat mengonfigurasi dnsmasq. Mohon periksa file konfigurasi di /etc/dnsmasq.conf."
+    echo "Terjadi kesalahan saat mengonfigurasi dnsmasq. Mohon periksa file konfigurasi di /etc/dnsmasq.conf"
     exit 1
 fi
 
